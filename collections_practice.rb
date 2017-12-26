@@ -36,10 +36,9 @@ def find_a(array)
 end 
 
 def sort_array_asc(array)
-  sorted = array.sort
-  sorted 
+  array.sort_by{|x| x[:bar]}
 end 
 
 def sort_array_desc(array)
-  array.sort_by{|h| -h[bar]}
+  array.sort_by{|x| -x[:bar]}
 end 
