@@ -36,3 +36,6 @@ def find_a(array)
 end 
 
 def sort_array_asc(array)
+  sorted = array.sort
+  sorted 
+end 
