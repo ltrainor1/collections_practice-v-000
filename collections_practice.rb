@@ -46,6 +46,7 @@ def sort_array_desc(array)
   i = 1
   while i <= array.length 
     sorted << array[array.length - i]
+    i += 1
   end
   sorted 
 end 
