@@ -41,12 +41,12 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  array.sort 
-  sorted = Array.new 
+  sorted = array.sort 
+  sorted2 = Array.new 
   i = 1
   while i <= array.length 
-    sorted << array[array.length - i]
+    sorted2 << array[array.length - i]
     i += 1
   end
-  sorted 
+  sorted2 
 end 
