@@ -34,3 +34,5 @@ def find_a(array)
   end 
   array 
 end 
+
+def sort_array_asc(array)
