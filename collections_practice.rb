@@ -39,3 +39,11 @@ def sort_array_asc(array)
   sorted = array.sort
   sorted 
 end 
+
+def sort_array_desc(array)
+  array.sort 
+  sorted = Array.new 
+  i = 1
+  while i <= array.length 
+  sorted << array[array.length - i]
+end 
