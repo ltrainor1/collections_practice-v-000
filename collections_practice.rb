@@ -41,12 +41,5 @@ def sort_array_asc(array)
 end 
 
 def sort_array_desc(array)
-  sorted = array.sort 
-  sorted2 = Array.new 
-  i = 1
-  while i <= array.length 
-    sorted2 << array[array.length - i]
-    i += 1
-  end
-  sorted2 
+  array.sort_by{|h| -h[bar]}
 end 
